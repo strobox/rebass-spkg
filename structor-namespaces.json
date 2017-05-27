@@ -1,0 +1,11 @@
+{
+  "namespaces": {},
+  "dependencies": {
+    "packages": [
+      {
+        "name": "rebass",
+        "version": "0.3.4"
+      }
+    ]
+  }
+}

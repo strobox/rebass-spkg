@@ -1,0 +1,89 @@
+{
+  "pages": [
+    {
+      "pageName": "Page185",
+      "pagePath": "/rebass-test",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "flex": ""
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "col": 3
+              },
+              "children": [
+                {
+                  "type": "h3",
+                  "props": {
+                    "style": {
+                      "padding": "1em",
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Dot indicator",
+                      "props": {
+                        "className": "f3 pa5"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "flex",
+                  "justifyContent": "space-around",
+                  "alignItems": "flex-end"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {},
+                  "children": [],
+                  "text": "Length: 3"
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "DotIndicator",
+                      "variant": "default",
+                      "children": [],
+                      "namespace": "Rebass",
+                      "props": {
+                        "active": 1,
+                        "length": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {},
+                  "children": [],
+                  "text": "Active: 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
