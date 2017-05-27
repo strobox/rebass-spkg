@@ -1,0 +1,34 @@
+[
+  {
+    "type": "Button",
+    "variant": "default",
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "text": "Text"
+      }
+    ],
+    "namespace": "Rebass",
+    "props": {}
+  },
+  {
+    "type": "Button",
+    "namespace": "Rebass",
+    "variant": "Rounded",
+    "props": {
+      "rounded": true
+    },
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "text": "Button"
+      }
+    ]
+  }
+]
